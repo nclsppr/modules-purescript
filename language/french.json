@@ -1,0 +1,443 @@
+{
+    "checks": [
+        {
+            "id": "common",
+            "name": "Mot de passe commun : Dans le top {{ value }} mots de passe les plus utilisés",
+            "message": "Votre mot de passe est très couramment utilisé. Il serait fissuré presque instantanément."
+        },
+        {
+            "id": "xkcd",
+            "name": "xkcd",
+            "message": "Je soupçonne que les pirates de mots de passe pourraient être sur celui-ci maintenant..."
+        },
+        {
+            "id": "jeff",
+            "name": "Il y a toujours une porte dérobée...",
+            "message": "\"Le gars qui a fabriqué le logiciel s'appelait Jeff Jeffty Jeff. Né le premier de Jeff, nineteen-jeffty-jeff.\""
+        },
+        {
+            "id": "length.very-short",
+            "name": "Longueur : Très courte",
+            "message": "Votre mot de passe est très court. Plus un mot de passe est long, plus il sera sécurisé."
+        },
+        {
+            "id": "possibly-word",
+            "name": "Peut-être un mot",
+            "message": "Votre mot de passe semble être un mot de dictionnaire ou un nom. S'il s'agit d'un nom ayant une signification personnelle, il pourrait être facile de deviner. S'il s'agit d'un mot de dictionnaire, il pourrait être fissuré très rapidement."
+        },
+        {
+            "id": "just.numbers",
+            "name": "Variété de caractères : Juste des chiffres",
+            "message": "Votre mot de passe ne contient que des chiffres. Cela réduit considérablement le nombre de combinaisons possibles."
+        },
+        {
+            "id": "just.alphanumeric",
+            "name": "Peut-être un mot et un nombre",
+            "message": "Votre mot de passe semble être juste un mot et quelques chiffres. C'est un modèle très courant qui serait fissuré très rapidement."
+        },
+        {
+            "id": "length.short",
+            "name": "Longueur : Courte",
+            "message": "Votre mot de passe est assez court. Plus un mot de passe est long, plus il sera sécurisé."
+        },
+        {
+            "id": "just.letters",
+            "name": "Variété de caractères : Juste des lettres",
+            "message": "Votre mot de passe ne contient que des lettres. L'ajout de chiffres et de symboles peut rendre votre mot de passe plus sûr."
+        },
+        {
+            "id": "no.symbols",
+            "name": "Variété de caractères : Pas de symboles",
+            "message": "Votre mot de passe ne contient que des chiffres et des lettres. L'ajout d'un symbole peut rendre votre mot de passe plus sûr. N'oubliez pas que vous pouvez souvent utiliser des espaces dans les mots de passe."
+        },
+        {
+            "id": "just.telephone",
+            "name": "Peut-être un numéro de téléphone / une date",
+            "message": "Votre mot de passe semble être un numéro de téléphone ou une date. Si c'est le cas et qu'il a une signification personnelle, il pourrait être très facile à deviner pour quelqu'un."
+        },
+        {
+            "id": "repeated-pattern",
+            "name": "Motif répété",
+            "message": "Des caractères ou des motifs répétés peuvent rendre votre mot de passe plus prévisible."
+        },
+        {
+            "id": "non-standard-characters",
+            "name": "Variété de caractères : Personnages non standard",
+            "message": "Votre mot de passe contient un caractère non clavier. Cela devrait le rendre plus sûr."
+        },
+        {
+            "id": "length.long",
+            "name": "Longueur : Longue",
+            "message": "Votre mot de passe compte plus de seize caractères."
+        }
+    ],
+    "forever": "Forever",
+    "instantly": "Instantly",
+    "periods": [
+        {
+            "singular": "yoctosecond",
+            "plural": "yoctoseconds",
+            "seconds": 1e-24
+        },
+        {
+            "singular": "zeptosecond",
+            "plural": "zeptoseconds",
+            "seconds": 1e-21
+        },
+        {
+            "singular": "attosecond",
+            "plural": "attoseconds",
+            "seconds": 1e-18
+        },
+        {
+            "singular": "femtosecond",
+            "plural": "femtoseconds",
+            "seconds": 1e-15
+        },
+        {
+            "singular": "picosecond",
+            "plural": "picoseconds",
+            "seconds": 1e-12
+        },
+        {
+            "singular": "nanosecond",
+            "plural": "nanoseconds",
+            "seconds": 1e-9
+        },
+        {
+            "singular": "microsecond",
+            "plural": "microseconds",
+            "seconds": 0.000001
+        },
+        {
+            "singular": "millisecond",
+            "plural": "milliseconds",
+            "seconds": 0.001
+        },
+        {
+            "singular": "second",
+            "plural": "seconds",
+            "seconds": 1
+        },
+        {
+            "singular": "minute",
+            "plural": "minutes",
+            "seconds": 60
+        },
+        {
+            "singular": "hour",
+            "plural": "hours",
+            "seconds": 3600
+        },
+        {
+            "singular": "day",
+            "plural": "days",
+            "seconds": 86400
+        },
+        {
+            "singular": "week",
+            "plural": "weeks",
+            "seconds": 604800
+        },
+        {
+            "singular": "month",
+            "plural": "months",
+            "seconds": 2626560
+        },
+        {
+            "singular": "year",
+            "plural": "years",
+            "seconds": 31557600
+        }
+    ],
+    "numbers": [
+        {
+            "name": "hundred",
+            "value": 2
+        },
+        {
+            "name": "thousand",
+            "value": 3
+        },
+        {
+            "name": "million",
+            "value": 6
+        },
+        {
+            "name": "billion",
+            "value": 9
+        },
+        {
+            "name": "trillion",
+            "value": 12
+        },
+        {
+            "name": "quadrillion",
+            "value": 15
+        },
+        {
+            "name": "quintillion",
+            "value": 18
+        },
+        {
+            "name": "sextillion",
+            "value": 21
+        },
+        {
+            "name": "septillion",
+            "value": 24
+        },
+        {
+            "name": "octillion",
+            "value": 27
+        },
+        {
+            "name": "nonillion",
+            "value": 30
+        },
+        {
+            "name": "decillion",
+            "value": 33
+        },
+        {
+            "name": "undecillion",
+            "value": 36
+        },
+        {
+            "name": "duodecillion",
+            "value": 39
+        },
+        {
+            "name": "tredecillion",
+            "value": 42
+        },
+        {
+            "name": "quattuordecillion",
+            "value": 45
+        },
+        {
+            "name": "quindecillion",
+            "value": 48
+        },
+        {
+            "name": "sexdecillion",
+            "value": 51
+        },
+        {
+            "name": "septendecillion",
+            "value": 54
+        },
+        {
+            "name": "octodecillion",
+            "value": 57
+        },
+        {
+            "name": "novemdecillion",
+            "value": 60
+        },
+        {
+            "name": "vigintillion",
+            "value": 63
+        },
+        {
+            "name": "unvigintillion",
+            "value": 66
+        },
+        {
+            "name": "duovigintillion",
+            "value": 69
+        },
+        {
+            "name": "tresvigintillion",
+            "value": 72
+        },
+        {
+            "name": "quattuorvigintillion",
+            "value": 75
+        },
+        {
+            "name": "quinquavigintillion",
+            "value": 78
+        },
+        {
+            "name": "sesvigintillion",
+            "value": 81
+        },
+        {
+            "name": "septemvigintillion",
+            "value": 84
+        },
+        {
+            "name": "octovigintillion",
+            "value": 87
+        },
+        {
+            "name": "novemvigintillion",
+            "value": 90
+        },
+        {
+            "name": "trigintillion",
+            "value": 93
+        },
+        {
+            "name": "untrigintillion",
+            "value": 96
+        },
+        {
+            "name": "duotrigintillion",
+            "value": 99
+        },
+        {
+            "name": "googol",
+            "value": 100
+        },
+        {
+            "name": "trestrigintillion",
+            "value": 102
+        },
+        {
+            "name": "quattuortrigintillion",
+            "value": 105
+        },
+        {
+            "name": "quinquatrigintillion",
+            "value": 108
+        },
+        {
+            "name": "sestrigintillion",
+            "value": 111
+        },
+        {
+            "name": "septentrigintillion",
+            "value": 114
+        },
+        {
+            "name": "octotrigintillion",
+            "value": 117
+        },
+        {
+            "name": "noventrigintillion",
+            "value": 120
+        },
+        {
+            "name": "quadragintillion",
+            "value": 123
+        },
+        {
+            "name": "quinquagintillion",
+            "value": 153
+        },
+        {
+            "name": "sexagintillion",
+            "value": 183
+        },
+        {
+            "name": "septuagintillion",
+            "value": 213
+        },
+        {
+            "name": "octogintillion",
+            "value": 243
+        },
+        {
+            "name": "nonagintillion",
+            "value": 273
+        },
+        {
+            "name": "centillion",
+            "value": 303
+        },
+        {
+            "name": "uncentillion",
+            "value": 306
+        },
+        {
+            "name": "duocentillion",
+            "value": 309
+        },
+        {
+            "name": "trescentillion",
+            "value": 312
+        },
+        {
+            "name": "decicentillion",
+            "value": 333
+        },
+        {
+            "name": "undecicentillion",
+            "value": 336
+        },
+        {
+            "name": "viginticentillion",
+            "value": 363
+        },
+        {
+            "name": "unviginticentillion",
+            "value": 366
+        },
+        {
+            "name": "trigintacentillion",
+            "value": 393
+        },
+        {
+            "name": "quadragintacentillion",
+            "value": 423
+        },
+        {
+            "name": "quinquagintacentillion",
+            "value": 453
+        },
+        {
+            "name": "sexagintacentillion",
+            "value": 483
+        },
+        {
+            "name": "septuagintacentillion",
+            "value": 513
+        },
+        {
+            "name": "octogintacentillion",
+            "value": 543
+        },
+        {
+            "name": "nonagintacentillion",
+            "value": 573
+        },
+        {
+            "name": "ducentillion",
+            "value": 603
+        },
+        {
+            "name": "trecentillion",
+            "value": 903
+        },
+        {
+            "name": "quadringentillion",
+            "value": 1203
+        },
+        {
+            "name": "quingentillion",
+            "value": 1503
+        },
+        {
+            "name": "sescentillion",
+            "value": 1803
+        },
+        {
+            "name": "septingentillion",
+            "value": 2103
+        },
+        {
+            "name": "octingentillion",
+            "value": 2403
+        },
+        {
+            "name": "nongentillion",
+            "value": 2703
+        },
+        {
+            "name": "millinillion",
+            "value": 3003
+        }
+    ]
+}
